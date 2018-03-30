@@ -172,7 +172,7 @@ fieldset {
 .btn-big {
     margin-right: 15px;
     font-weight: 500;
-    border-radius: 3px
+    border-radius: 10px
 }
 
 .btn-active{
@@ -180,7 +180,7 @@ fieldset {
 }
 
 .btn-active:hover{
-    background: #2f98a6
+    background: black
 }
 
 .section-big {
@@ -584,7 +584,7 @@ img {
 .navbar-nav li a {
     color: #161f3c;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
 	padding: 25px 10px 27px;;
 }
@@ -600,11 +600,11 @@ img {
 }
 
 .mainmenu .navbar-nav li a:hover {
-    color: #0f8bcf
+    color: purple
 }
 
 .mainmenu .navbar-nav li.active a {
-    color: #0f8bcf
+    color: purple
 }
 
 /*Dropdown Css*/
