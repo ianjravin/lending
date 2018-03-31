@@ -63,13 +63,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <!-- Navbar Right Menu -->
                   <div class="navbar-custom-menu">
                       <ul class="nav navbar-nav">
-                          <li>
-                              <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#DonateModal">Load Account</a>
-                          </li>
-                          <li>
-                              <a href="https://ianjravin.github.io/zaka/"><i class="glyphicon glyphicon-home myicon-right"></i> View site</a>
-                          </li>
 
+                          <li>
+                              <a href="https://zaka.co.ke/categories.html"><i class="glyphicon glyphicon-home myicon-right"></i> View site</a>
+                          </li>
+                          <li>
+                              <a href="account.html"><i class="fa fa-cog"></i> Settings</a>
+                          </li>
                           <!-- User Account Menu -->
                           <li class="dropdown user user-menu">
                               <!-- Menu Toggle Button -->
@@ -133,10 +133,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       </li><!-- ./Links -->
 
 
+                        <li >
+                          <a href="pay.html"><i class="fa fa-cog"></i> <span>Repayment Settings</span></a>
+                        </li>
 
+                        <li >
+                            <a href="pay.html"><i class="fa fa-cog"></i> <span>Prepayment</span></a>
+                        </li>
 
+                      <li >
+                          <a href="account.html"><i class="fa fa-cog"></i> <span>Loan Status</span></a>
+                      </li>
 
+                      <li >
+                          <a href="messages.html"><i class="fa fa-envelope"></i> <span>Messages</span></a>
+                      </li>
 
+                      <li >
+                          <a href="offers.html"><i class="fa fa-envelope"></i> <span>Offers</span></a>
+                      </li>
 
                       <!-- Links -->
                       <li class="">
@@ -151,8 +166,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       </li><!-- ./Links -->
 
 
+
+
                       <li >
-                          <a href="messages.html"><i class="fa fa-envelope"></i> <span>Messages</span></a>
+                          <a href="account.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
+                      </li>
+
+
+                      <li >
+                          <a href="news.html"><i class="fa fa-cog"></i> <span>Newsletter</span></a>
+                      </li>
+
+                      <li >
+                          <a href="donations.html"><i class="fa fa-cog"></i> <span>Donations</span></a>
                       </li>
 
                   </ul><!-- /.sidebar-menu -->
@@ -231,18 +257,121 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   </div>
                   <div class="row">
 
-                      <section class="col-md-12">
-                          <div class="nav-tabs-custom">
-                              <ul class="nav nav-tabs pull-right ui-sortable-handle">
-                                  <li class="pull-left header"><i class="ion ion-cash"></i> Investments last 14 days</li>
-                              </ul>
-                              <div class="tab-content">
-                                  <div class="tab-pane active">
-                                      <div class="chart" id="chart1"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </section>
+                    <!--main content start-->
+                    <section id="main-content">
+                        <section class="wrapper">
+                            <div class="mail-w3agile">
+                                <!-- page start-->
+                                <div class="row">
+
+                                    <div class="col-sm-12 mail-w3agile">
+                                        <section class="panel">
+                                            <header class="panel-heading wht-bg">
+                                                <h4 class="gen-case">Offers
+                                                    <form action="#" class="pull-right mail-src-position">
+                                                        <div class="input-append">
+                                                            <input type="text" class="form-control " placeholder="Search Mail">
+                                                        </div>
+                                                    </form>
+                                                </h4>
+                                            </header>
+                                            <div class="panel-body minimal">
+                                                <div class="mail-option">
+                                                    <div class="chk-all">
+                                                        <div class="pull-left mail-checkbox ">
+                                                            <input type="checkbox" class="">
+                                                        </div>
+
+                                                        <div class="btn-group">
+                                                            <a data-toggle="dropdown" href="#" class="btn mini all">
+                                                                All
+                                                                <i class="fa fa-angle-down "></i>
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#"> None</a></li>
+                                                                <li><a href="#"> Read</a></li>
+                                                                <li><a href="#"> Unread</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="btn-group">
+                                                        <a data-original-title="Refresh" data-placement="top" data-toggle="dropdown"
+                                                           href="#" class="btn mini tooltips">
+                                                            <i class=" fa fa-refresh"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="btn-group hidden-phone">
+                                                        <a data-toggle="dropdown" href="#" class="btn mini blue">
+                                                            More
+                                                            <i class="fa fa-angle-down "></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#"><i class="fa fa-pencil"></i> Mark as Read</a></li>
+                                                            <li><a href="#"><i class="fa fa-ban"></i> Spam</a></li>
+                                                            <li class="divider"></li>
+                                                            <li><a href="#"><i class="fa fa-trash-o"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <a data-toggle="dropdown" href="#" class="btn mini blue">
+                                                            Move to
+                                                            <i class="fa fa-angle-down "></i>
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#"><i class="fa fa-pencil"></i> Mark as Read</a></li>
+                                                            <li><a href="#"><i class="fa fa-ban"></i> Spam</a></li>
+                                                            <li class="divider"></li>
+                                                            <li><a href="#"><i class="fa fa-trash-o"></i> Delete</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="table-inbox-wrap ">
+                                                    <table class="table table-inbox table-hover">
+                                                        <thead>
+                                                        <tr>
+                                                            <td>Investor Name</td>
+                                                            <td>Offer</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr class="unread">
+
+                                                            <td class="view-message  dont-show"><a href="#">investor1</a></td>
+                                                            <td class="view-message "><a href="#">500,000 KES for 10%</a></td>
+                                                            <td><button @click="accept1()"  type="button" class="btn btn-primary btn-lg"
+                                                                   style="background-color:green">Accept</button></td>
+                                                            <td><button @click="accept2()"   type="button"  class="btn btn-primary btn-lg"
+                                                                   style="background-color:red">Decline</button></td>
+                                                            <td>
+                                                                <div class="input-group">
+                                                                    <input v-model="comment" type="text" class="form-control" placeholder="Counter">
+                                                                    <span class="input-group-btn">
+                                                                        <button value="3" @click="accept3()"  class="btn btn-default" type="button">Negotiate</button>
+                                                                    </span>
+                                                                </div>
+                                                            </td>
+
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </div>
                       <section class="col-md-12">
                       </section>
                   </div>
@@ -292,136 +421,92 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="bootstrap/js/functions.js" type="text/javascript"></script>
   <script src="js/raphael-min.js" type="text/javascript"></script>
   <script src="js/morris.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-
-      var IndexToMonth = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
-
-      //** Charts
-      new Morris.Area({
-          // ID of the element in which to draw the chart.
-          element: 'chart1',
-          // Chart data records -- each entry in this array corresponds to a point on
-          // the chart.
-          data: [
-
-              { days: '2017-12-18', value: 0 },
 
 
-              { days: '2017-12-17', value: 0 },
 
+<script>
+      var app = new Vue({
 
-              { days: '2017-12-16', value: 0 },
-
-
-              { days: '2017-12-15', value: 0 },
-
-
-              { days: '2017-12-14', value: 0 },
-
-
-              { days: '2017-12-13', value: 0 },
-
-
-              { days: '2017-12-12', value: 0 },
-
-
-              { days: '2017-12-11', value: 0 },
-
-
-              { days: '2017-12-10', value: 0 },
-
-
-              { days: '2017-12-09', value: 0 },
-
-
-              { days: '2017-12-08', value: 3 },
-
-
-              { days: '2017-12-07', value: 0 },
-
-
-              { days: '2017-12-06', value: 0 },
-
-
-              { days: '2017-12-05', value: 0 },
-
-
-              { days: '2017-12-04', value: 0 },
-
-
-              { days: '2017-12-03', value: 0 },
-
-
-              { days: '2017-12-02', value: 0 },
-
-
-              { days: '2017-12-01', value: 0 },
-
-
-              { days: '2017-11-30', value: 0 },
-
-
-              { days: '2017-11-29', value: 0 },
-
-
-              { days: '2017-11-28', value: 0 },
-
-
-              { days: '2017-11-27', value: 0 },
-
-
-              { days: '2017-11-26', value: 0 },
-
-
-              { days: '2017-11-25', value: 0 },
-
-
-              { days: '2017-11-24', value: 0 },
-
-
-              { days: '2017-11-23', value: 1 },
-
-
-              { days: '2017-11-22', value: 0 },
-
-
-              { days: '2017-11-21', value: 0 },
-
-
-              { days: '2017-11-20', value: 1 },
-
-
-              { days: '2017-11-19', value: 0 },
-
-          ],
-          // The name of the data record attribute that contains x-values.
-          xkey: 'days',
-          // A list of names of data record attributes that contain y-values.
-          ykeys: ['value'],
-          // Labels for the ykeys -- will be displayed when you hover over the
-          // chart.
-          labels: ['Donations'],
-          pointFillColors: ['#FF5500'],
-          lineColors: ['#DDD'],
-          hideHover: 'auto',
-          gridIntegers: true,
-          resize: true,
-          xLabelFormat: function (x) {
-              var month = IndexToMonth[ x.getMonth() ];
-              var year = x.getFullYear();
-              var day = x.getDate();
-              return  day +' ' + month;
-              //return  year + ' '+ day +' ' + month;
+          el:'#app',
+          data:{
+              value:'',
+              comment:''
           },
-          dateFormat: function (x) {
-              var month = IndexToMonth[ new Date(x).getMonth() ];
-              var year = new Date(x).getFullYear();
-              var day = new Date(x).getDate();
-              return day +' ' + month;
-              //return year + ' '+ day +' ' + month;
+          methods:{
+              accept1:function(){
+                 this.value = 1
+                  var app = this
+                 var formData = new FormData
+                 formData.append('function','offerRespond')
+                 formData.append('status',app.value)
+                 formData.append('offer_id','')
+                 formData.append('user','')
+                 formData.append('comments','')
+
+
+                 axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
+                     .then(function(response){
+                         alert(response.data.message)
+                     })
+
+                     .catch(function(error){
+
+                     })
+              },
+              accept2:function(){
+                  this.value = 2
+                  var app = this
+                 var formData = new FormData
+                 formData.append('function','offerRespond')
+                 formData.append('status',app.value)
+                 formData.append('offer_id','')
+                 formData.append('user','')
+                 formData.append('comments','')
+
+
+                 axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
+                     .then(function(response){
+                         alert(response.data.message)
+                     })
+
+                     .catch(function(error){
+
+                     })
+              },
+              accept3:function(){
+                  this.value = 3
+                  var app = this
+                 var formData = new FormData
+                 formData.append('function','offerRespond')
+                 formData.append('status',app.value)
+                 formData.append('offer_id','')
+                 formData.append('user','')
+                 formData.append('comments',app.comment)
+
+
+                 axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
+                     .then(function(response){
+                         alert(response.data.message)
+                     })
+
+                     .catch(function(error){
+
+                     })
+              },
+
+              accept:function(){
+                  alert(this.value);
+
+
+              },
+
           },
 
-      });// <------------ MORRIS
+
+
+      })
+
   </script>
+
   </body>
 </html>

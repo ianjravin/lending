@@ -1,3 +1,24 @@
+input[type="radio"] {
+    display: none;
+}
+
+labell {
+  padding: 10px 20px;
+  background-color: orange;
+  border: thin solid darkorange;
+  border-radius: 10px;
+  margin:5px;
+  display: inline-block;
+}
+
+input[type="radio"]:checked + label {
+    background-color: darkblue;
+    cursor: default;
+    color: #E6E6E6;
+}
+
+
+
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/lato-black.eot');

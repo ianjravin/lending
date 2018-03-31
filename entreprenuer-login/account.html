@@ -49,11 +49,11 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 <![endif]-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script type="text/javascript">
 
     // URL BASE
-    var URL_BASE = "https://ianjravin.github.io/zaka-dashboard/login.html";
+    var URL_BASE = "https://ianjravin.github.io/zaka-dashboard/";
     // ReadMore
     var ReadMore = "View more...";
     var ReadLess = "View less...";
@@ -68,7 +68,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Scripts -->
     <script>
@@ -101,7 +101,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://ianjravin.github.io/zaka-dashboard/login.html">
+          <a class="navbar-brand" href="https://ianjravin.github.io/zaka-dashboard/">
           	<img src="images/logo.png" class="logo" />
           	</a>
         </div><!-- navbar-header -->
@@ -224,7 +224,7 @@
 
     		<div class="text-center">
     			<button type="button" class="btn btn-default btn-border btn-sm" id="avatar_file" style="margin-top: 10px;">
-	    		<i class="icon-camera myicon-right"></i> Change Avatar
+	    		<i class="icon-camera myicon-right"></i> Change profile picture
 	    		</button>
 	    		<input type="file" name="photo" id="uploadAvatar" accept="image/*" style="visibility: hidden;">
     		</div>
@@ -250,33 +250,47 @@
               <input type="email" class="form-control login-field custom-rounded" value="john@doe.com" name="email" placeholder="Email" title="Email" autocomplete="off">
          </div><!-- ***** Form Group ***** -->
 
+				 <!-- ***** Form Group ***** -->
+				 <div class="form-group has-feedback">
+					 <label class="font-default">Title</label>
+					 <input type="text" class="form-control login-field custom-rounded" value="John Doe" name="full_name" placeholder="Full name" title="Full name" autocomplete="off">
+					</div><!-- ***** Form Group ***** -->
+
+					<!-- ***** Form Group ***** -->
+					<div class="form-group has-feedback">
+						<label class="font-default">Occupation</label>
+						<input type="text" class="form-control login-field custom-rounded" value="John Doe" name="full_name" placeholder="Full name" title="Full name" autocomplete="off">
+					 </div><!-- ***** Form Group ***** -->
+
+
+
          <!-- ***** Form Group ***** -->
             <div class="form-group has-feedback">
-            	<label class="font-default">Country</label>
+            	<label class="font-default">Location</label>
             	<select name="countries_id" class="form-control" >
                       		<option value="">Select your country</option>
 
-                            <option  value="3">Afghanistan</option>
+                            <option  value="3">Mombasa</option>
 
-                            <option  value="4">Albania</option>
+                            <option  value="4">Kiambu</option>
 
-                            <option  value="5">Algeria</option>
+                            <option  value="5">Kajiado</option>
 
-                            <option  value="6">American Samoa</option>
+                            <option  value="6">Laikipia</option>
 
-                            <option  value="7">Andorra</option>
+                            <option  value="7">Kisumu</option>
 
-                            <option  value="8">Angola</option>
+                            <option  value="8">Meru</option>
 
-                            <option  value="9">Anguilla</option>
+                            <option  value="9">Embu</option>
 
-                            <option  value="10">Antarctica</option>
+                            <option  value="10">Turkana</option>
 
-                            <option  value="11">Antigua and/or Barbuda</option>
+                            <option  value="11">Nakuru</option>
 
-                            <option  value="12">Argentina</option>
+                            <option  value="12">Marsabit </option>
 
-                            <option  value="13">Armenia</option>
+                            <option  value="13">Uasin gishu</option>
 
                             <option  value="14">Aruba</option>
 
@@ -706,7 +720,7 @@
 
                             <option  value="226">United Kingdom</option>
 
-                            <option  selected="selected"  value="1">United States</option>
+                            <option  selected="selected"  value="1">Nairobi</option>
 
                             <option  value="227">United States minor outlying islands</option>
 
@@ -757,17 +771,18 @@
 		  	</a> <!-- **** ./ list-group-item **** -->
 			</li>
 
+
 		  	<li class="margin-bottom-5">
 		  		<!-- **** list-group-item **** -->
-		  <a href="#" class="list-group-item ">
+		  <a href="password.html" class="list-group-item ">
 		  	<i class="icon icon-lock myicon-right"></i> Password
 		  	</a> <!-- **** ./ list-group-item **** -->
 		  	</li>
 
 		  	<li class="margin-bottom-5">
 		  		<!-- **** list-group-item **** -->
-		  <a href="campaigns.html" class="list-group-item ">
-		  	<i class="ion ion-speakerphone myicon-right"></i> post
+		  <a href="bussiness.html" class="list-group-item ">
+		  	<i class="ion ion-speakerphone myicon-right"></i> Business Profile
 		  	</a> <!-- **** ./ list-group-item **** -->
 		  	</li>
 
@@ -784,6 +799,11 @@
 		  	<i class="fa fa-money myicon-right"></i> Withdrawals
 		  	</a> <!-- **** ./ list-group-item **** -->
 		  	</li>
+
+				
+
+
+
 
 		</ul>		</div>
 
