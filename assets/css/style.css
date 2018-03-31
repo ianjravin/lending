@@ -519,8 +519,8 @@ img {
 
 .menu-area.navbar-fixed-top {
     background: #fff;
-    top: 70px;
-    height: 85px
+    top: 0px;
+    height: 80px
 }
 
 .menu-area.navbar-fixed-top.sticky-menu {
@@ -854,9 +854,7 @@ float: right
 }
 
 
-.space {
-    height: 85px
-}
+
 
 
 
@@ -872,7 +870,7 @@ float: right
 #slider .carousel,
 #slider .carousel .carousel-inner,
 #slider .carousel .carousel-inner .item {
-    height:800px;
+    height:900px;
     min-height: 480px
 }
 
@@ -947,8 +945,8 @@ float: right
 }
 
 .caption h1 {
-    font-size: 65px;
-    line-height: 75px;
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 900;
     text-transform: capitalize;
     margin: 0;
@@ -972,7 +970,7 @@ float: right
     color: #fff;
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 40px
+    margin-bottom: 0px
 }
 
 .caption {
