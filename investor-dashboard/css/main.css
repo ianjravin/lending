@@ -152,7 +152,7 @@ input[type='file'] {
  * ***************************
  */
 body a {
-    color: #f45302;
+    color: white;
 }
 .color-default {
    color: #f45302;
@@ -2220,7 +2220,7 @@ h2.title-site {
 .btn-main:active,
 .btn-main:focus {
   color: #fff;
-  background-color: #f45302;
+  background-color: purple;
   border-color: #f45302;
 }
 .btn-main:hover {
@@ -2527,7 +2527,7 @@ a:active.btn-trans {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus  {
-	background-color: #232a29;
+	background-color: purple;
     border-color: transparent;
 }
 .alert-fonts {

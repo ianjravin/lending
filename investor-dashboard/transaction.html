@@ -134,13 +134,26 @@
                   <li  class="active" >
                       <a href="index.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
                   </li>
+
+                  <li >
+                      <a href="loans.html"><i class="fa fa-align-left"></i> <span>My Loans</span></a>
+                  </li>
+
+
+
+
                   <li class="treeview ">
                       <a href="/settings"><i class="fa fa-cogs"></i> <span>General Settings</span> <i class="fa fa-angle-left pull-right"></i></a>
                       <ul class="treeview-menu">
-                          <li ><a href="account.html"><i class="fa fa-circle-o"></i> Account settings</a></li>
-                          <li ><a href="limits.html"><i class="fa fa-circle-o"></i> General Settings</a></li>
+                          <li ><a href="account.html"><i class="fa fa-circle-o"></i> Profile settings</a></li>
+                          <li ><a href="dormancy.html"><i class="fa fa-circle-o"></i> Account Settings</a></li>
                       </ul>
                   </li><!-- ./Links -->
+
+
+                  <li >
+                      <a href="donations.html"><i class="fa fa-envelope"></i> <span>My Donations</span></a>
+                  </li>
 
 
 
@@ -152,7 +165,12 @@
 
                   <!-- Links -->
                   <li class="">
-                      <a href="investments.html"><i class="fa fa-list-ol"></i> <span>Transaction history</span></a>
+                      <a href="investments.html"><i class="fa fa-list-ol"></i> <span>Invetsments</span></a>
+                  </li><!-- ./Links -->
+
+                  <!-- Links -->
+                  <li class="">
+                      <a href="transaction.html"><i class="fa fa-list-ol"></i> <span>Transactions history</span></a>
                   </li><!-- ./Links -->
 
 
@@ -167,16 +185,9 @@
                   </li>
 
                   <li >
-                      <a href="account.html"><i class="fa fa-cog"></i> <span>Account Settings</span></a>
+                      <a href="dormancy.html"><i class="fa fa-cog"></i> <span>Account Settings</span></a>
                   </li>
 
-                  <li >
-                      <a href="donations.html"><i class="fa fa-envelope"></i> <span>My Donations</span></a>
-                  </li>
-
-                  <li >
-                      <a href="newsletter.html"><i class="fa fa-print"></i> <span>Newsletter</span></a>
-                  </li>
 
                   <li >
                       <a href="invite.html"><i class="fa fa-cog"></i> <span>Invite Friends</span></a>
@@ -192,175 +203,123 @@
           </section>
           <!-- /.sidebar -->
       </aside>
-
       <!-- Content Wrapper. Contains page content -->
       <div class="content-wrapper">
-          <!-- Content Header (Page header) -->
-          <section class="content-header">
-              <h1>
-                  Dashboard
-              </h1>
-              <ol class="breadcrumb">
-                  <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                  <li class="active">Newsletter</li>
-              </ol>
-          </section>
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h4>
+           Zaka Admin <i class="fa fa-angle-right margin-separator"></i> Investments (199)
+          </h4>
 
-          <!-- Main content -->
-          <section class="content">
+        </section>
 
-              <div class="row">
+        <!-- Main content -->
+        <section class="content">
+
+        	<div class="row">
+            <div class="col-xs-12">
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">
+                  		Investments
+                  	</h3>
+                </div><!-- /.box-header -->
+
+                <div class="box-body table-responsive no-padding">
+                  <table class="table table-hover">
+               <tbody>
+
+               	                   <tr>
+                      <th class="active">ID</th>
+                      <th class="active">Full name</th>
+                      <th class="active">Posts</th>
+                      <th class="active">Email</th>
+                      <th class="active">Loan</th>
+                      <th class="active">Repayment</th>
+                      <th class="active">Status</th>
+                      <th class="active">Date</th>
+                      <th class="active">Actions</th>
+                    </tr><!-- /.TR -->
+
+
+                    <tr>
+    <td>200</td>
+    <td>Gitonga Gabriel</td>
+    <td><a href="single.html" target="_blank">Education f... <i class="fa fa-external-link-square"></i></a></td>
+    <td>asdasd@asdasd.aom</td>
+    <td>Ksh50,000</td>
+    <td>Ksh55,000</td>
+    <td>
+       <span class="label label-success">Paid</span>
+     </td>
+    <td>08 Dec, 17</td>
+
+    <td> <a href="viewinve.html" class="btn btn-success btn-xs padding-btn">
+        View
+      </a> </td>
+  </tr><!-- /.TR -->
 
 
 
 
 
 
+                  </tbody>
 
-              </div>
-              <div class="row">
+                  </table>
 
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+                           <ul class="pagination">
+    <!-- Previous Page Link -->
+            <li class="disabled"><span>&laquo;</span></li>
 
-                </section>
+    <!-- Pagination Elements -->
+            <!-- "Three Dots" Separator -->
 
+        <!-- Array Of Links -->
+                                                        <li class="active"><span>1</span></li>
+                                                                <li><a href="page=2">2</a></li>
 
-            </div>
-        </div>
-                  <section class="col-md-12">
-                  </section>
-              </div>
-          </section>
-      </div>
-      <footer class="main-footer">
-          <!-- Default to the left -->
-          &copy; <strong>Zaka | Investment Platform</strong> - 2018      </footer>
+    <!-- Next Page Link -->
+            <li><a href="page=2" rel="next">&raquo;</a></li>
+    </ul>
 
-  </div>
-  <div class="modal fade" id="DonateModal" tabindex="-1" role="dialog" data-backdrop="static">
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <div class="row">
-                      <div class="col-md-6 col-sm-6 donate-amount-option">
-                          <h4>Amount</h4>
-                          <div class="input-group">
-                              <span >Ksh</span>
-                              <input type="number" class="form-control">
-                          </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 donate-amount-option">
-                          <h4>Enter Mobile Number</h4>
-                          <div class="input-group">
-                              <span class="input-group-addon" id="basic-addon1">+254</span>
-                              <input type="number" class="form-control">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="modal-footer text-align-center">
-                  <button type="button" class="btn btn-primary">Make Payments</button>
-                  <div class="spacer-20"></div>
-              </div>
+                         </div>
           </div>
-      </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/loader.js"></script>
-<script src="plugins/jquery/jQuery-2.1.4.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="plugins/fastclick.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/app.min.js" type="text/javascript"></script>
-<script src="plugins/sweetalert/sweetalert.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/functions.js" type="text/javascript"></script>
-<script src="js/raphael-min.js" type="text/javascript"></script>
-<script src="js/morris.min.js" type="text/javascript"></script>
+
+          <!-- Your Page Content Here -->
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <!-- Default to the left -->
+       &copy; <strong>Zaka | Investment Platform</strong> - 2017      </footer>
+
+    </div><!-- ./wrapper -->
+
+    <!-- REQUIRED JS SCRIPTS -->
+
+   <!-- jQuery 2.1.4 -->
+    <script src="plugins/jquery/jQuery-2.1.4.min.js" type="text/javascript"></script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src="plugins/fastclick.min.js" type="text/javascript"></script>
+    <!-- AdminLTE App -->
+    <script src="bootstrap/js/app.min.js" type="text/javascript"></script>
+
+    <script src="plugins/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+
+    <script src="bootstrap/js/functions.js" type="text/javascript"></script>
 
 
-
-<script>
-  var app = new Vue({
-
-      el:'#app',
-      data:{
-          value:'',
-          comment:''
-      },
-      methods:{
-          accept1:function(){
-             this.value = 1
-              var app = this
-             var formData = new FormData
-             formData.append('function','offerRespond')
-             formData.append('status',app.value)
-             formData.append('offer_id','')
-             formData.append('user','')
-             formData.append('comments','')
-
-
-             axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
-                 .then(function(response){
-                     alert(response.data.message)
-                 })
-
-                 .catch(function(error){
-
-                 })
-          },
-          accept2:function(){
-              this.value = 2
-              var app = this
-             var formData = new FormData
-             formData.append('function','offerRespond')
-             formData.append('status',app.value)
-             formData.append('offer_id','')
-             formData.append('user','')
-             formData.append('comments','')
-
-
-             axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
-                 .then(function(response){
-                     alert(response.data.message)
-                 })
-
-                 .catch(function(error){
-
-                 })
-          },
-          accept3:function(){
-              this.value = 3
-              var app = this
-             var formData = new FormData
-             formData.append('function','offerRespond')
-             formData.append('status',app.value)
-             formData.append('offer_id','')
-             formData.append('user','')
-             formData.append('comments',app.comment)
-
-
-             axios.post('https://zaka.nouveta.co.ke/api/index.php',formData)
-                 .then(function(response){
-                     alert(response.data.message)
-                 })
-
-                 .catch(function(error){
-
-                 })
-          },
-
-          accept:function(){
-              alert(this.value);
-
-
-          },
-
-      },
-
-
-
-  })
-
-</script>
-
-</body>
+    <!-- Optionally, you can add Slimscroll and FastClick plugins.
+          Both of these plugins are recommended to enhance the
+          user experience. Slimscroll is required when using the
+          fixed layout. -->
+  </body>
 </html>
