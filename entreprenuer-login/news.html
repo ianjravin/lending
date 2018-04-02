@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
+
 <html>
   <head>
       <meta charset="UTF-8">
@@ -47,11 +44,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <header class="main-header">
 
               <!-- Logo -->
-              <a href="https://ianjravin.github.io/zaka-dashboard/login.html" class="logo">
+              <a href="index.html" class="logo">
                   <!-- mini logo for sidebar mini 50x50 pixels -->
-                  <span class="logo-mini"><b><i class="ion ion-ios-bolt"></i></b></span>
+                  <span class="logo-mini"><b><i class="fa fa-desktop"></i></b></span>
                   <!-- logo for regular state and mobile devices -->
-                  <span class="logo-lg"><b><i class="ion ion-ios-bolt"></i> Zaka Admin</b></span>
+                  <span class="logo-lg"><b><i class="fa fa-desktop"></i> Zaka Admin</b></span>
               </a>
 
               <!-- Header Navbar -->
@@ -64,8 +61,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <div class="navbar-custom-menu">
                       <ul class="nav navbar-nav">
 
+                        <li>
+                            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#DonateModal">Make Repayments</a>
+                        </li>
+
                           <li>
-                              <a href="https://zaka.co.ke/categories.html"><i class="glyphicon glyphicon-home myicon-right"></i> View site</a>
+                              <a href="https://zaka.co.ke"><i class="fa fa-home myicon-right"></i> View site</a>
                           </li>
                           <li>
                               <a href="account.html"><i class="fa fa-cog"></i> Settings</a>
@@ -132,17 +133,27 @@ scratch. This page gets rid of all links and provides the needed markup only.
                           <a href="index.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
                       </li><!-- ./Links -->
 
+                      <li class="treeview ">
+                          <a href="/settings"><i class="fa fa-cogs"></i> <span>Settings</span> <i class="fa fa-angle-left pull-right"></i></a>
+                          <ul class="treeview-menu">
+                              <li ><a href="account.html"><i class="fa fa-circle-o"></i> Account settings</a></li>
+                              <li ><a href="profile.html"><i class="fa fa-circle-o"></i> Profile Settings</a></li>
+                              <li ><a href="bussiness.html"><i class="fa fa-circle-o"></i> Business Settings</a></li>
+                              <li ><a href="password.html"><i class="fa fa-circle-o"></i> Password Settings</a></li>
+                          </ul>
+                      </li><!-- ./Links -->
+
 
                         <li >
-                          <a href="pay.html"><i class="fa fa-cog"></i> <span>Repayment Settings</span></a>
+                          <a href="pay.html"><i class="fa fa-wrench"></i> <span>Repayment Settings</span></a>
                         </li>
 
                         <li >
-                            <a href="pay.html"><i class="fa fa-cog"></i> <span>Prepayment</span></a>
+                            <a href="pay.html"><i class="fa fa-money"></i> <span>Prepayment</span></a>
                         </li>
 
                       <li >
-                          <a href="account.html"><i class="fa fa-cog"></i> <span>Loan Status</span></a>
+                          <a href="status.html"><i class="fa fa-power-off"></i> <span>Loan Status</span></a>
                       </li>
 
                       <li >
@@ -150,12 +161,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       </li>
 
                       <li >
-                          <a href="offers.html"><i class="fa fa-envelope"></i> <span>Offers</span></a>
+                          <a href="offers.html"><i class="fa fa-fast-forward"></i> <span>Offers</span></a>
                       </li>
 
                       <!-- Links -->
                       <li class="">
-                          <a href="amt.html"><i class="ion ion-cash"></i> <span>Investors</span></a>
+                          <a href="amt.html"><i class="fa fa-users"></i> <span>Investors</span></a>
                       </li><!-- ./Links -->
 
 
@@ -166,29 +177,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       </li><!-- ./Links -->
 
 
-
-
                       <li >
-                          <a href="account.html"><i class="fa fa-cog"></i> <span>Settings</span></a>
-                      </li>
-
-
-                      <li >
-                          <a href="news.html"><i class="fa fa-cog"></i> <span>Newsletter</span></a>
+                          <a href="donations.html"><i class="fa fa-handshake-o"></i> <span>Donations</span></a>
                       </li>
 
                       <li >
-                          <a href="donations.html"><i class="fa fa-cog"></i> <span>Donations</span></a>
-                      </li>
-
-                      <li >
-                          <a href="invite.html"><i class="fa fa-cog"></i> <span>Invite friends</span></a>
+                          <a href="invite.html"><i class="fa fa-plus-square"></i> <span>Invite friends</span></a>
                       </li>
 
                   </ul><!-- /.sidebar-menu -->
-                </section>
-                <!-- /.sidebar -->
-                </aside>
+              </section>
+              <!-- /.sidebar -->
+          </aside>
 
           <!-- Content Wrapper. Contains page content -->
           <div class="content-wrapper">
